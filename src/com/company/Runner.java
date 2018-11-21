@@ -9,3 +9,4 @@ public class Runner {
         mergeSort(test);
         System.out.println(Arrays.toString(test));
     }
+}
