@@ -1,18 +1,9 @@
 package com.company;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 
-public class Main {
-
-    public static void main(String[] args) {
-        int[] test = {1,4,6,5,7};
-        mergeSort(test);
-        System.out.println(Arrays.toString(test));
-    }
-
+public class sort
+{
     public static void mergeSort(int[] arr)
     {
         int n = arr.length;
